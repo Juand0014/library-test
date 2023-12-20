@@ -1,0 +1,31 @@
+{
+  "name": "angel-mongrut---angelmongrut---2021-7-6-library-api--",
+  "version": "1.0.0",
+  "description": "- [Instrucciones en Español](README_ES.md) - [Instructions in English](README_EN.md)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gbh-candidates/angel-mongrut---angelmongrut---2021-7-6-library-api---js.git"
+  },
+  "keywords": [],
+  "author": "amongrut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gbh-candidates/angel-mongrut---angelmongrut---2021-7-6-library-api---js/issues"
+  },
+  "homepage": "https://gitlab.com/gbh-candidates/angel-mongrut---angelmongrut---2021-7-6-library-api---js#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.2",
+    "path-to-regexp": "^6.2.0",
+    "pdfjs-dist": "^2.8.335",
+    "pdftohtmljs": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}

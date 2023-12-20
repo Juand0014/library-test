@@ -1,0 +1,17 @@
+version: '3'
+services:
+  library-api:
+    restart: always
+    build: .
+    ports:
+      - 5557:3001
+    environment: 
+      - DB_URI=mongodb://mongo:27017/library-api
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+volumes:
+ mongodb:
